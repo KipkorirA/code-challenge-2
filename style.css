@@ -1,6 +1,8 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: black;
+  background-image: url(https://images.unsplash.com/photo-1502754388-a9bce5374fb8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+  background-position: 0 100px;
   margin: 0;
   padding: 0;
 }
@@ -8,10 +10,11 @@ body {
 .container {
   max-width: 600px;
   margin: 20px auto;
-  background-color: yellow;
+  background-color: gray;
+  color: beige;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgb(230, 224, 224);
+  box-shadow: 0 0 16px lightblue;
 }
 
 .input-group {
