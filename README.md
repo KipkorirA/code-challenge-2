@@ -22,7 +22,7 @@ To run the application locally, open the `index.html` file in your web browser. 
 
 ## Deployed Version
 
-The deployed version of this application can be accessed at [https://your-deployed-link.com](https://your-deployed-link.com).
+The deployed version of this application can be accessed at [https://kipkorira.github.io/code-challenge-2/](https://kipkorira.github.io/code-challenge-2/).
 
 ## About the Project
 
