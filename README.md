@@ -19,6 +19,10 @@ This challenge combines array iteration, DOM manipulation, and event handling to
 
 To run the application, open the `index.html` file in your web browser. The application will load and you can start managing your shopping list.
 
+## Deployed Link
+
+The deployed version of this application can be accessed at [https://your-deployed-link.com](https://your-deployed-link.com).
+
 ## About
 
 This project was created by Aron Kipkorir. It's a practical demonstration of basic DOM manipulation and event handling in JavaScript.

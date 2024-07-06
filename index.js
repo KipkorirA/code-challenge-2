@@ -11,12 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Empty array to store shopping list items
     let shoppingList = [];
   
-    // Event listener for 'Enter' key press in the input field
-    itemInput.addEventListener('keydown', (event) => {
-        if (event.key === 'Enter') {
-          addItem(); // Call addItem function when Enter key is pressed
-        }
-    
     // Function to render the shopping list
     const renderList = () => {
       itemList.innerHTML = ''; // Clear previous list items
@@ -71,6 +65,12 @@ document.addEventListener('DOMContentLoaded', () => {
   
     // Event listener for 'Clear All' button click
     clearBtn.addEventListener('click', clearAll);
+  
+    // Event listener for 'Enter' key press in the input field
+    itemInput.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter') {
+        addItem(); // Call addItem function when Enter key is pressed
+      }
     });
   });
   
