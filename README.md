@@ -1,35 +1,53 @@
-# Shopping List Application
-
-This is a simple web application for the challenge "Code Challenge: Interactive Shopping List". <br>
-This challenge combines array iteration, DOM manipulation, and event handling to create an interactive shopping list application.
-
-##  Preview
+# Interactive Shopping List Application
 
 ![Shopping List Screenshot](/Screenshot%20from%202024-07-07%2000-46-45.png)
 
+## Overview
+
+Welcome to the Interactive Shopping List Application, a simple tool designed to manage your shopping list efficiently. It is inspired by week 2 code challenge [here](https://moringa.instructure.com/courses/777/assignments/56015?module_item_id=122034)
+
 ## Features
 
-- Add items to the shopping list.
-- Mark items as purchased by clicking on them.
-- Mark all items as purchased with a single button click.
-- Clear the entire list of items.
+- **Add Items**: Input new items to your shopping list effortlessly.
+- **Mark as Purchased**: Toggle items as purchased by clicking on them.
+- **Mark All**: Mark all items as purchased with a single click.
+- **Clear List**: Remove all items from the list to start fresh.
 
 ## Technologies Used
 
-- HTML
-- CSS
-- JavaScript
+- **HTML**: Structure of the web page.
+- **CSS**: Styling to enhance visual appeal and user experience.
+- **JavaScript**: Interactivity and dynamic functionality.
 
 ## Running the Application
 
-To run the application locally, open the `index.html` file in your web browser. The application will load, and you can start managing your shopping list.
+To run the application locally:
+1. Clone this repository or download the ZIP file.
+2. Navigate to the directory where you saved the files.
+3. Open `index.html` in your preferred web browser.
 
-## Deployed Version
+## Live Demo
 
-The deployed version of this application can be accessed at [https://kipkorira.github.io/code-challenge-2/](https://kipkorira.github.io/code-challenge-2/).
+Explore the live version of the application [here](https://kipkorira.github.io/code-challenge-2/).
+
+## How to Use
+
+1. **Adding Items**:
+   - Enter the name of the item in the input field and click "Add" or press Enter.
+   
+2. **Marking Items**:
+   - Click on any item in the list to mark it as purchased. Click again to undo.
+
+3. **Mark All**:
+   - Click the "Mark Purchased" button to mark all items in the list as purchased.
+
+4. **Clearing the List**:
+   - Click the "Clear List" button to remove all items from the list.
 
 ## About the Project
 
-This project was created by Aron Kipkorir. It serves as a practical demonstration of basic DOM manipulation and event handling in JavaScript.
+This project was developed by Aron Kipkorir as part of a coding challenge. It demonstrates foundational skills in DOM manipulation and event handling using JavaScript. 
 
-Feel free to explore the code and customize it for your own use.
+## Feedback
+
+Your feedback is valuable! If you have any suggestions, find a bug, or want to contribute to this project, please [open an issue](https://github.com/kipkorira/code-challenge-2/issues) or [submit a pull request](https://github.com/kipkorira/code-challenge-2/pulls). Your contributions are greatly appreciated!
