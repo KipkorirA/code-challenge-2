@@ -3,8 +3,12 @@
 This is a simple web application for the challenge "Code Challenge: Interactive Shopping List". <br>
 This challenge combines array iteration, DOM manipulation, and event handling to create an interactive shopping list application.
 
-## Features
+##  Preview
+
 ![Shopping List Screenshot](/Screenshot%20from%202024-07-07%2000-46-45.png)
+
+## Features
+
 - Add items to the shopping list.
 - Mark items as purchased by clicking on them.
 - Mark all items as purchased with a single button click.
