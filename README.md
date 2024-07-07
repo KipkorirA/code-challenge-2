@@ -4,7 +4,7 @@
 
 ## Overview
 
-Welcome to the Interactive Shopping List Application, a simple tool designed to manage your shopping list efficiently. It is inspired by week 2 code challenge [here](https://moringa.instructure.com/courses/777/assignments/56015?module_item_id=122034).
+Welcome to the Interactive Shopping List Application, a simple tool designed to manage your shopping list efficiently. It is inspired by [ week 2 code challenge](https://moringa.instructure.com/courses/777/assignments/56015?module_item_id=122034).
 
 ## Features
 
@@ -28,7 +28,7 @@ To run the application locally:
 
 ## Live Demo
 
-Explore the live version of the application [here](https://kipkorira.github.io/code-challenge-2/){:target="_blank"}.
+Explore the live version of the application [here](https://kipkorira.github.io/code-challenge-2/).
 
 ## How to Use
 
@@ -50,4 +50,4 @@ This project was developed by Aron Kipkorir as part of a coding challenge. It de
 
 ## Feedback
 
-Your feedback is valuable! If you have any suggestions, find a bug, or want to contribute to this project, please [open an issue](https://github.com/kipkorira/code-challenge-2/issues){:target="_blank"} or [submit a pull request](https://github.com/kipkorira/code-challenge-2/pulls){:target="_blank"}. Your contributions are greatly appreciated!
+Your feedback is valuable! If you have any suggestions, find a bug, or want to contribute to this project, please [open an issue](https://github.com/kipkorira/code-challenge-2/issues) or [submit a pull request](https://github.com/kipkorira/code-challenge-2/pulls). Your contributions are greatly appreciated!
