@@ -16,23 +16,25 @@ document.addEventListener('DOMContentLoaded', () => {
     itemList.innerHTML = '';
 
     shoppingList.forEach((item, index) => {
-
       // Create a new list item element
       const li = document.createElement('li');
       li.textContent = item.name;
+
+      // Add class based on completed status for styling
+      if (item.completed) {
+        li.classList.add('completed');
+      }
 
       // Create the Edit button
       const editBtn = document.createElement('button');
       editBtn.textContent = 'Edit';
 
       editBtn.addEventListener('click', () => {
-
         // Prompt the user to enter a new name for the item
         const newName = prompt('Enter new name:', item.name);
 
         if (newName !== null && newName !== '') {
           // Update the item name
-
           item.name = newName.trim();
           // Re-render the list to reflect the changes
           renderList();
@@ -45,7 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
       clearItemBtn.addEventListener('click', () => {
         // Remove the item from the shoppingList array
-        
         shoppingList.splice(index, 1);
         // Re-render the list to reflect the removal
         renderList();
@@ -58,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Toggle completed status on clicking the list item
       li.addEventListener('click', () => {
         item.completed = !item.completed;
-        renderList();
+        li.classList.toggle('completed');
       });
 
       // Append the list item to the itemList
@@ -103,3 +104,4 @@ document.addEventListener('DOMContentLoaded', () => {
   // Call to display any existing items
   renderList();
 });
+
