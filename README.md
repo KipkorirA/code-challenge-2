@@ -1,6 +1,6 @@
 # Interactive Shopping List 
 
-![Shopping List Screenshot](Screenshot%20from%202024-07-07%2023-19-24.png)
+![A preview](Screenshot%20from%202024-07-07%2023-19-24.png)
 
 ## Overview
 
